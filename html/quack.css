@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient( rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Lato, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+ 
