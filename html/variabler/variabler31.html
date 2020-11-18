@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hva er en datatype</h1>
+    <p>La oss si at vi lager et program hvor vi ønsker litt informasjon om en andedam:</p> 
+
+    <ol>
+        <li>Navn på dammen</li>
+        <li>Antall ender i dammen </li>
+        <li>Er dammen full? </li>
+        <li>Hvilken art er endene?</li>
+        <li>Temperatur i vannet</li>
+    </ol>
+
+    <p>
+        Disse forskjellige dataene har en gitt datatype. For eksempel vil det være naturlig at “antall ender i dammen” får datatypen <i>Number</i>>, i og med at svaret alltid er et tall. Tallet kan ikke være negativt, og man kan heller ikke oppgi antallet som kommatall, derfor vil datatypen være et positivt heltall. 
+        “Temperatur i vannet” kan derimot få en negativ verdi, eller en verdi med komma. “Navn på dammen” og “arten på endene” kan ikke oppgis som tall, 
+        og vil derfor få en annen datatype. Datatypen til variablene som får tekst som svar kaller vi for strings. 
+        Om en verdi kun kan ha en av to verdier som svar pleier man å bruke <i>true</i> or <i>false</i> (sant eller usant). True or false er en egen datatype, 
+        men omtales som <i>boolean</i>. I vårt eksempel vil det være naturlig å bruke true/false for å finne ut av om dammen er full eller ikke. Vårt program vil da se slik ut, og datatypen til de forskjellige variablene står i parentes.
+    </p>
+    <code>
+        let navnDam = “Andedammen Div”; //(string)
+        <br>
+        let antEnder = 14; (number)
+        <br>
+        let damFull = false; //(true or false/boolean)
+        <br>
+        let enderArt = “stokkand”; //(string)
+        <br>
+        let  damTemp = 10; //(number)
+    </code>
+    <p>
+        Det finnes mange forskjellige datatyper, men de du har lært å kjenne nå er de vanligste.
+
+TIPS: Du kan alltid sjekke hvilken datatype din variabel har. Dette kan du gjøre ved å bruke operatoren typeof.
+
+I eksempelet nedenfor ser du hvordan vi sjekker datatypen til navnDam ved bruk av typeof: 
+    </p>
+    <code>
+        let navnDam = "Andedammen";
+        <br>
+        console.log(navnDam);
+        <br>
+        console.log(typeof navnDam);
+    </code>
+    <p>
+        Da vil konsollvinduet ditt vise:
+    </p>
+    <code>
+        Andedammen <br>
+        String
+    </code>
+    <br><br>
+
+    <button onclick="location.href='variabler24.html'">Forrige</button>
+    <button onclick="location.href='variabler32.html'">Neste</button>
+</body>
+</html>

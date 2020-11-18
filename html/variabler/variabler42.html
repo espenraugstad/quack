@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Konstanter vs variabler</h1>
+    <p>
+        I utgangspunktet er konstanter og variabler ganske like, og kan stort sett brukes på samme måte. En konstant kan godt brukes i en beregning sammen med en konstant:
+    </p>
+    <code>
+        let antallEnder = 7;
+        <br>
+        const ANTALL_VINGER = 2;
+        <br>
+        <br>
+        let vingerTotalt = antallEnder * ANTALL_VINGER;
+        <br>
+        console.log(vingerTotalt);
+        <br>
+        <br>
+        Resultat: 14
+    </code>
+    <p>
+        I eksempelet ovenfor brukte vi let til å deklarere vingerTotalt. Vi kunne også brukt const i stedet for, men da kunne vi ikke brukt vingerTotalt senere i programmet. Dersom vi fortsetter fra forrige eksempel kan vi nå gjøre følgende:
+    </p>
+    <code>
+        let antallEnder = 12;
+        <br><br>
+        vingerTotalt = antallEnder * ANTALL_VINGER;
+        <br><br>
+        Resultat: 24
+    </code>
+    <p>
+        Hvis vi derimot hadde deklarert vingerTotalt som en konstant og hadde fortsatt som ovenfor ville vi fått en feilmelding:
+    </p>
+    <code>
+        //vingerTotalt deklarert med const
+        <br><br>
+        vingerTotalt = antallEnder * ANTALL_VINGER;
+        <br><br>
+        Resultat: invalid assignment to const 'vingerTotalt'
+    </code> 
+    <p>Tommelfingerregelen er altså at alt som er deklarert med let kan endres senere, mens alt som er deklarert med const ikke kan endres. Det er en sannhet med en liten modifikasjon. Regelen gjelder for alle datatyper vi har pratet om så langt, men når vi senere kommer til det som heter objekter så er ting litt annerledes. </p>
+    <button
+    onclick="location.href='variabler41.html'">Forrige</button>
+    <button
+    onclick="location.href='variabler51.html'">Neste</button>
+</body>
+</html>
