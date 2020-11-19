@@ -49,8 +49,12 @@ a {
     width: 100%;
     text-align: center;
     box-shadow: 1px 1px 1px 1px hsl(0,0%,70%);
+    border-radius: 5px;
 }
 
 a:focus, a:hover {
     border: 1px solid black;
 }
+/* Kursforside slutt */
+
+/* Kursinnhold */
