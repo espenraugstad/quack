@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Funker for kurs-forside */
+main {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    width: 40%;
+    margin: auto;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 1px 1px hsl(0,0%,70%);
+}
+
+main>h1 {
+    margin: 10px auto;
+}
+
+.chapter-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.course-content, .course-chapter {
+    list-style: none;
+}
+
+.course-chapter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-chapter>li {
+    display: inline-flex;
+    flex-shrink: 2;
+    margin: 0 5px 10px 0;
+    width: 40%; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: hsl(0,0%,99%);
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px hsl(0,0%,70%);
+}
+
+a:focus, a:hover {
+    border: 1px solid black;
+}
