@@ -3,8 +3,8 @@
 
 
 body {
-    background: rgb(238,174,202);
-    background: linear-gradient( rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(249,164,232);
+    background: linear-gradient(0deg, rgba(249,164,232,1) 0%, rgb(253, 255, 112) 100%);
     background-repeat: no-repeat;
     height: 100vh;
     color: rgb(0, 0, 0);
