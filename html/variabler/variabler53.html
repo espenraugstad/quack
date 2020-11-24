@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Modulus</h1>
+    <p>
+        Modulusoperatoren baserer seg på et konsept vi kjenner fra divisjon i matematikken, nemlig rest etter divisjon. For å minne om denne kan vi ta et enkelt eksempel. 
+    </p>
+    <p>
+        La oss finne 34/5. Vi vet at 6 * 5 = 30 og 7 * 5 = 35. Det vil si at tallet 5 kun passer 6 hele ganger i 34. Har vi det 7 ganger så vil vi gå over 34.
+    </p>
+    <p>
+        Når vi har 6 * 5 = 30 mangler vi altså litt for å komme opp til 34. Forskjellen er 34 – 30 = 4. Da sier vi at resten etter divisjonen 34/5 er 4. For å finne dette tallet direkte i programkoden bruker vi modulusoperatoren. Denne er et prosenttegn som erstatter deletegnet. I stedet for å skrive 34/5 skriver vi altså 34%5.
+    </p>
+    <code>
+        console.log(34%5)
+        <br><br>
+        Resultat: 4
+        <br><br>
+        console.log(34/5)
+        <br><br>
+        Resultat: 6.8
+    </code>
+    <p>Dersom divisjonen faktisk går opp, så blir det ingen rest, og da blir også modulus lik 0.</p>
+    <code>console.log(35%5);
+        <br><br>
+        Resultat: 0</code>
+        <br><br>
+    <button
+        onclick="location.href='variabler52.html'">Forrige</button>
+    <button
+        onclick="location.href='variabler54.html'">Neste</button>
+</body>
+</html>
